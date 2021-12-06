@@ -10,3 +10,7 @@ switch (env) {
     break
 }
 export { BASE_URL }
+
+export const DEFAULT_CONFIG = {
+  baseURL: BASE_URL
+}
